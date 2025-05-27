@@ -32,8 +32,10 @@ from sklearn.manifold import TSNE
 from sklearn.decomposition import PCA
 import matplotlib as mpl
 
-# This implementation is modified based on: https://github.com/dmlc/dgl/blob/master/examples/pytorch/vgae/train.py.
-
+'''
+Our code is based on: https://github.com/dmlc/dgl/blob/master/examples/pytorch/vgae/train.py. 
+Thank them for their code!
+'''
 os.environ["KMP_DUPLICATE_LIB_OK"] = "True"
 
 parser = argparse.ArgumentParser(description="Disentangled Variational Graph Auto-Encoder")
