@@ -11,12 +11,9 @@
 
 Run with following (available dataset: "cora", "citeseer", "pubmed")
 
-```
-python train.py  --datname cora
-```
-```
-python train_DGAE.py --datname cora
-```
+`cd ./src`
+For DVGAE: `python train_DVGAE.py --datname cora`.
+For DGAE: `python train_DGAE.py --datname cora`.
 
 **Note**: If you want to train by dataset from website, you should download folder https://github.com/kimiyoung/planetoid/tree/master/data. Then put it under project folder.
 
